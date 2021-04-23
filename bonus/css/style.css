@@ -40,6 +40,7 @@ header{
     height: 90px;
     border-right: 1px solid #e5e5e5 ;
     padding-right: 20px;
+    padding-left: 10px;
 }
 
 /* navbar */
@@ -48,6 +49,7 @@ nav{
     width: 100%;
     line-height: 90px;
     margin-top: 10px;
+    padding-left: 10px;
 }
 
 nav > ul{
@@ -125,6 +127,7 @@ nav > ul > li > a{
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
+    padding-left: 10px;
     
 }
 
@@ -159,7 +162,7 @@ nav > ul > li > a{
 }
 
 .stile-corpo > h3{
-    padding: 10px 0;
+    padding: 10px 10px;
     font-weight: 300;
 }
 
@@ -167,6 +170,7 @@ nav > ul > li > a{
     line-height: 1.2;
     font-weight: 200;
     color:#838383;
+    padding: 0 10px;
 }
 
 
@@ -184,6 +188,55 @@ nav > ul > li > a{
     width: 56%;
     margin: 0 2%;
     /* height: 400px;              da rimuovere in seguito  */
+}
+
+.info{
+    padding-left: 10px;
+    line-height: 30px;
+    
+    margin-top: 10px;
+}
+
+.info-box{
+    border-right: 1px solid #a5a4a493;
+    display: inline-block;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.user{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+  
+}
+
+.info-box > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    background-image: linear-gradient(to right,#00f28f , #009ffd);
+    padding-right: 5px;
+}
+
+.info-box > a > strong{
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+
+.data{
+    font-weight: 200;
+    margin-left: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.time{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: middle;
 }
 
 /* footer */
