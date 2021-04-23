@@ -1,0 +1,74 @@
+/* common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px 10%;
+    /*OPPURE  padding-top: 0;*/
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+
+header{
+    background-color: #e579e6;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* jumbotron */
+
+.jumbotron{
+    width: 100%;
+    height: 350px;              /*da rimuovere in seguito */
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+
+/* corpo pagina */
+.container{
+    background-color: #0086ff;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.stile-corpo{
+    background-color:#abcfe7;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.top-subsect{
+    width: 100%;
+    height: 50px;               /*da rimuovere in seguito */
+    float: none;                /*da lasciare dichiarata dopo .stile-corpo */
+}
+
+.side-subsect{
+    width: 20%;
+    height: 400px;              /*da rimuovere in seguito */
+}
+
+.main-subsect{
+    width: 56%;
+    margin: 0 2%;
+    height: 400px;              /*da rimuovere in seguito */ 
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 50px;   
+    background-color: #8801fe;
+}
