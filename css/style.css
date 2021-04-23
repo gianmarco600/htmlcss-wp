@@ -73,7 +73,7 @@ nav > ul > li > a{
     width: 100%;
     height: 550px;              /* necessaria */
     background-image: url(../img/banner.jpg);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-radius: 20px;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,14 +137,23 @@ nav > ul > li > a{
 
 .img-rounded{
     border-radius: 20px;
-    background-image: url(../img/img-1.jpg);
     width: 100%;
     height: 250px;
     background-size: contain;
 }
 
+.img1{
+    background-image: url(../img/img-1.jpg);
+}
+
+.img2{
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .stile-corpo > h3{
-    padding: 15px 0;
+    padding: 10px 0;
     font-weight: 300;
 }
 
@@ -163,7 +172,7 @@ nav > ul > li > a{
 .main-subsect{
     width: 56%;
     margin: 0 2%;
-    height: 400px;              /*da rimuovere in seguito */ 
+    /* height: 400px;              da rimuovere in seguito  */
 }
 
 /* footer */
