@@ -152,6 +152,12 @@ nav > ul > li > a{
     background-size: cover;
 }
 
+.img3{
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .stile-corpo > h3{
     padding: 10px 0;
     font-weight: 300;
