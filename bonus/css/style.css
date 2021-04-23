@@ -118,7 +118,7 @@ nav > ul > li > a{
 .stile-corpo{
     /* background-color:#abcfe7;  */
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .top-subsect > h2{
@@ -171,8 +171,13 @@ nav > ul > li > a{
 
 
 .side-subsect{
-    width: 20%;
+    width: 30%;
     /* height: 400px;              da rimuovere in seguito */
+    margin-right: 5%;
+}
+
+.side-subsect:nth-child(3n+4){    
+    margin-right: 0;
 }
 
 .main-subsect{
